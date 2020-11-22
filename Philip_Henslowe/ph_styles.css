@@ -1,0 +1,154 @@
+@charset "utf 8";
+@font-face {
+   font-family: 'cac_champagne';
+src: url('cac_champagne.woff') format('woff'),
+     url('cac_champagne.ttf') format('truetype');
+}
+@font-face {
+   font-family: '1942';
+src: url('grunge.woff') format('woff'),
+     url('grunge.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Dobkin';
+src: url('DobkinPlain.woff') format('woff'),
+     url('DobkinPlain.ttf') format('truetype');
+}
+/*"
+   New Perspectives" on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Author: Carissa Harden     
+   -Date: 11/7/21
+     
+   
+   Filename: ph_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+html {
+   background-color: hsl(91, 8%, 56%);
+}
+body {
+   background-color: hsl(58, 31%, 84%);
+   font-family: 'Palatino Linotype', 'Book Antiqua','Palatino', 'serif';
+}
+header {
+   background-color: black;
+}
+/* .hh1 {
+   font-family: 'DobkinPlain';
+   margin: 0px;
+   font-size: 3em;
+} */
+p {
+   margin: 0;
+   padding: 5px 25px 25px 25px;
+} 
+body p {
+   font-size: 1.1em;
+   margin: auto;
+}
+address {
+   font-size: 0.9em;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   font-style: normal;
+}
+/* .f1 h1 {
+   font-family: 'DobkinPlain';
+}
+.f1r1 {
+   color: #8da1ca;
+}
+.f2 h1 {
+   font-family: 'DobkinPlain';
+}
+.f2r1 {
+   color: #a57a48e5;
+}
+.f3r1 {
+   color: hsl(295, 12%, 56%);
+}
+
+.f2 h1 {
+   font-family: '1942', 'Times New Roman', Times, serif;
+}
+
+.f3 h1 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.f4 h1 {
+   font-family: 'DobkinPlain','Cursive';
+} */
+
+
+/* Navigation Styles */
+
+nav a {
+   font-family: 'Trebuchet MS', 'Helvetica', 'sans-serif';
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+nav a:link {
+   color: white;
+   text-decoration: none;
+   background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav a:hover {
+   color: hsla(0, 0%, 100%, 0.7);
+   background-color: hsl(0,0%,42%,0.7);
+}
+
+/* Section Styles */
+
+section.playbill h1 {
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0;
+   padding: 20px 0 10px 20px;
+}
+#play1 {
+   background-color: hsl(240,100%,88%);
+}
+#play2 {
+   background-color: hsl(25,88%,73%);
+}
+#play3 {
+   background-color: hsl(0,100%,75%);
+}
+#play4 {
+   background-color: hsl(296,86%,86%);
+}
+
+#play1 h1 {
+   font-family: 'cac_champagne', 'cursive';
+}
+#play2 h1 {
+   font-family: '1942', 'Times New Roman', 'Times', 'serif';
+}
+#play3 h1 {
+   font-family: 'Impact', 'Charcoal','sans-serif';
+}
+#play4 h1 {
+   font-family: 'Dobkin','cursive';
+}
+/* Description List Styles */
+
+dt {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0, 0%, 0%, 0.4);
+} 
+dd {
+   font-size: 1.3em;
+   margin-left: 0;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 2
+   
+   Style Sheet for Costume Expressions Front Page
+   Author: Carissa Harden
+   Date: 11/13/20  
+   
+   Filename: ce_styles.css
+*/
+
+
+/* Window and Body Styles */
+
+html {
+   background-color: rgb(101, 101, 101);
+}
+
+body {
+   background-color: #ffffff;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   margin: 20px auto;
+   width: 95%;
+   position: relative;
+   min-width: 320px;
+   max-width: 960px;
+}
+body img {
+   display: block;
+   width: 100%;
+}
+nav a {
+   text-decoration: none;
+}
+
+/* Body Header Styles */
+
+body > header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
+body > header > nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding: 10px 0;
+}
+nav li {
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
+}
+nav ul li a:hover {
+   color: rgb(255, 211, 211);
+}
+/* nav ul li a:visited, nav ul li a:link {
+   color: rgb(51, 51, 51);
+} */
+nav ul li a:active {
+   color: rgb(255, 211, 211);
+}
+
+
+
+/* DIV Container Styles */
+
+div.container {
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+
+div.cell{
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
+
+
+/* Footer Styles */
+
+footer {
+   /* position: absolute; */
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
